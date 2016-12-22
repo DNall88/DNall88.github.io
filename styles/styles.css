@@ -1,0 +1,193 @@
+
+body{
+	background-color: #03040a;
+	color: #c9c9c9;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+#main p{
+	padding: 5px;
+}
+
+#main table {
+	margin: 5px;
+}
+
+td {
+	min-width: 100px;
+}
+
+.miniHeader {
+	border-bottom: 2px solid #c9c9c9;
+}
+
+/* BOX that contains certain sections */
+/* =================================================== */
+
+.box {
+	background-color: #131b3d;
+    background: -webkit-linear-gradient(#131b3d, #243375); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#131b3d, #243375); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#131b3d, #243375); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#131b3d, #243375); /* Standard syntax */
+	border: 1px solid #2855a4;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+
+/* BANNER */
+/* =================================================== */
+#header .box {
+	height: 133px;
+	margin-bottom: 10px;
+}
+
+#header h1 {
+	font-size: 2.5em;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#login {
+	float:right;
+	margin: 5px 5px 0 0;
+}
+
+#feedback {
+	font-size: 0.5em;
+}
+
+/* Nav Menu rules */
+/* =================================================== */
+
+
+#navMenu, .sub1 {
+	list-style-type:none;
+}
+
+
+#navMenu li {
+	width: 125px;
+	float:left;
+	text-align: center;
+	position: relative;
+	margin: 0 2px;
+}
+
+#navMenu a {
+	text-decoration: none;
+	color: #c9c9c9;
+	display: block;
+	width: 125px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #131b3d;
+	border-radius: 3px;
+}
+
+#navMenu .sub1 a {
+	margin-top: 3px;
+
+}
+
+#navMenu li:hover > a {
+	background-color: #243375;
+}
+
+#navMenu li:hover a:hover {
+	background-color: #243375;
+}
+
+#navMenu ul.sub1 {
+	display: none;
+	position: absolute;
+	top:25px;
+	left: -2px;
+}
+
+#navMenu li:hover .sub1 {
+	display:block;
+}
+
+.darrow{
+	font-size: 10px;
+	position: absolute;
+	top: 10px;
+	right: 4px;
+}
+
+.clearing{
+	clear:both;
+}
+
+#searchForm {
+	float: right;
+
+}
+
+/* FEATURE */
+/* ========================================= */
+
+#main {
+	margin-top: 10px;
+}
+
+.feature img {
+	width:150px;
+	height: 200px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+#main .feature {
+	width: 150px;
+	height:250px;
+	margin: 22px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+	float:left;
+}
+
+.feature a{
+	text-decoration: none;
+	color: #c9c9c9;
+}
+
+.feature:hover {
+	text-decoration: underline;
+}
+
+/* SIDEBAR */
+/* ========================================== */
+#sidebar {
+	margin-top: 10px;
+}
+
+#sidebar p {
+	padding: 5px;
+}
+/* FOOTER */
+/* ========================================== */
+#footer {
+	margin-top: 10px;
+}
+
+#footer li{
+	float: right;
+	text-decoration: underline;
+	margin: 10px;
+}
+
+/* GALLERY PAGE */
+/* ===========================================*/
+
+.gallery img {
+	width: 600px;
+	
+	margin: 10px 90px;
+}

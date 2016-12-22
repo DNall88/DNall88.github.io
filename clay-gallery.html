@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clay Gallery</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/text.css">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/960_12_col.css">
+</head>
+<body>
+	<div id="container" class="container_12">
+
+	<div id="header" class="grid_12">
+	<div class="box">
+		<form id="login">
+			<div id="feedback"></div>
+			<label>Email <input type="text" name="userEmail" id="userEmail"></label>
+			<label>Password <input type="text" name="pass" id="pass"></label>
+			<input type="submit" class="submit" value="Submit">
+		</form>
+		<h1>Creative<img src="images/avatar.jpg">Destruction</h1>
+	</div><!--box-->
+	</div><!-- header -->
+
+	<!-- NAV BAR -->
+	<div id="navOuter" class=grid_12>
+	<ul id="navMenu">
+		<li><a href="../">Home</a></li>
+		<li><a href="#">News</a><span class="darrow">&#9660; </span> 
+			<ul class="sub1">
+				<li><a href="news.html">Recent</a></li>
+				<li><a href="news.html">Archive</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Community</a><span class="darrow">&#9660; </span> 
+			<ul class="sub1">
+				<li><a href="https://www.facebook.com">Facebook</a></li>
+				<li><a href="forums.html">Forums</a></li>
+			</ul>
+		</li>
+		<li><a href="#">About</a><span class="darrow">&#9660; </span> 
+			<ul  class="sub1">
+				<li><a href="company.html">Company</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="clearing"></ul>
+	<form id="searchForm">
+		<input type="text" name="search" id="search">
+		<input type="submit" class="submit" value="Search">
+	</form>
+	</div><!-- nav outer -->
+	
+	<div id="main" class="grid_10">
+	<div class="box">
+	<div class="miniHeader"><h2>Clay</h2></div>
+		<div class="gallery">
+			<img src="images/clay.jpg">
+		</div>
+	</div><!-- main box -->
+	</div><!-- main -->
+
+	<div id="sidebar" class="grid_2">
+	<div class="box">
+		<div class="miniHeader"><h2>Top Rated</h2></div>
+		<div class="gallery">
+			<img src="images/clay.jpg">
+		</div>
+	</div><!--box-->
+	</div><!-- sidebar -->
+	
+	<div id="footer" class="grid_12">
+		<ul>
+			<li>top</li>
+			<li>legal</li>
+			<li>about</li>
+			<li>contact</li>
+		</ul>
+	</div><!-- footer-->
+
+</div><!-- container -->
+</body>
+</html>
